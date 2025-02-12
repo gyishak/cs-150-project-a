@@ -59,25 +59,29 @@ app.layout = html.Div(
 )
 def update_graph(chosen_value):
     print(f"Values chosen by user: {chosen_value}")
+    #chosen_value=list(chosen_value)
 
+    if chosen_value is None:
+        return {}
+    else:
+        chosen_value = list(chosen_value)
+        df_filtered = df[df[
+            "Local Site Name"].isin(chosen_value)]
+        fig = px.line(
+            data_frame=df_filtered,
 
-    df_filtered = df[df[
-        "Local Site Name"].isin(chosen_value)]
-    fig = px.line(
-        data_frame=df_filtered,
+            x="Date",
+            y="Daily Mean PM2.5 Concentration",
+            color="Local Site Name",
+            log_y=True,
+            labels={
+                "Daily Mean PM2.5 Concentration": "Daily Mean PM2.5 Concentration",
+                "Date": "Date",
+                "Local Site Name": "Local Site Name",
+            },
 
-        x="Date",
-        y="Daily Mean PM2.5 Concentration",
-        color="Local Site Name",
-        log_y=True,
-        labels={
-            "Daily Mean PM2.5 Concentration": "Daily Mean PM2.5 Concentration",
-            "Date": "Date",
-            "Local Site Name": "Local Site Name",
-        },
-
-    )
-    return fig
+        )
+        return fig
 
 
 if __name__ == "__main__":
