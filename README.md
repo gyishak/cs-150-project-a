@@ -16,7 +16,7 @@ This dashboard also incorporates presentation techniques like the avoidance of c
 **Data visualizing**: The data I will be visualizing 
 is the PM 2.5 Concentration levels across every station in Boston-Cambridge-Newton, MA during the year 2024.<br><br>
 **Strategies to make visualization effective**: I will be using an interactive line graph to display and demonstrate my thesis through this. This line graph will span from Jan-Dec 2024 and display the 
-concentration levels compared to the recommended PM 2.5 Concentration amount.
+concentration levels compared to the recommended PM 2.5 Concentration amount.<br>
 **Resources**: Oehha.ca.Gov, oehha.ca.gov/calenviroscreen/indicator/air-quality-pm25. <br>
 EPA, Environmental Protection Agency.  <br>
 “Dallas Air Quality Index (AQI) and USA Air Pollution.” IQAir.  <br>
