@@ -3,7 +3,7 @@ Grace Yishak <br>
 CS 150<br>
 Mike Ryu
 
-**Thesis Statement**: Due to the rising levels in PM 2.5 during July-September, Boston residents are responsible and must take initiate in using their individuals power to lower these concentration levels. <br><br>
+**Thesis Statement**: Due to the rising levels in PM 2.5 during July-September, Boston residents are responsible and must take initiative in using their individual power to lower these concentration levels. <br><br>
 **Context**: PM 2.5 is a particle that includes chemicals, dust, soot, and metals. PM 2.5 generally comes from substances like gasoline, oil, diesel fuel, etc. 
 These particles contribute to premature death with those with heart or lung disease, increased respiratory symptoms, nonfatal heart attacks, etc. As shown PM 2.5 can contribute significantly to human life and quality of it.  <br><br>
 **Who**: The general public of Boston, MA who are interested in protecting the wellbeing of themselves and others. In terms of myself, I am a Computer Science student at Westmont College who has taken an interest in Environmental Justice. <br> <br>
